@@ -1,0 +1,208 @@
+/*Reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Topo-logo*/
+.Topo_logo {
+    max-width: 300px;
+    height: 20vh;
+    padding: 30px;
+}
+.Topo_logo_icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+.Topo_logo img {
+    width: 30px;
+    margin-right: 5px;
+}
+.Topo_logo p {
+    color: #3c184e ;
+}
+.title {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.paragraph {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/*Banner*/
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    padding: 120px 80px;
+    background-image: url('./img/banner-topo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1f26875e;
+}
+
+
+
+.container_banner {
+    max-width: 1024px;
+    background-color: #ffffffc4 ;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 70px auto;
+    box-shadow: 3px 3px 14px 1px black;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.container_banner h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom:40px;
+}
+.container_banner a {
+    width: 190px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e ;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container_banner img {
+    width: 20px;
+    margin-left: 15px;
+}
+/*Serviços*/
+.servicos {
+    width: 100%;
+    padding: 120px 80px;
+    color: #3c184e;
+}
+.servicos h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.container_lista {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+.container_lista ul {
+    list-style-type: square;
+    font-size: 20px;
+}
+ul li {
+    margin-bottom: 20px;
+}
+li span {
+    font-weight: bold;
+    font-style: italic;
+}
+.box_img {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.box_img img {
+    border-radius: 5px;
+    background-color:#0000005c ;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/*Redes Sociais*/
+.redes {
+    background-color: #3c184e;
+    color: #ffff;
+    padding: 120px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes p {
+    width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    text-align: center;
+}
+.redes span {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.box_redes img {
+    width: 50px;
+    height: 50px;
+}
+.box_redes {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/*Marcas*/
+.marcas {
+    width: 100%;
+    padding: 120px 80px;
+}
+.marcas h2 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.box_marcas {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box_marcas img{
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/*Localização*/
+.localizacao {
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+    color: #3c184e;
+}
+.localizacao h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.localizacao p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+iframe {
+    width: 800px;
+    height: 450px;
+}
+
+/*Rodapé*/
+footer {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #3c184e;
+    color: #ffff;
+    text-align: center;
+}
